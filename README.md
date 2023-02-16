@@ -1,11 +1,10 @@
 # Introduction
 Text summarization is the process of using a computer program to generate a shorter version of a text document while retaining its main ideas. The amount of information available to people has increased exponentially with the advent of the internet, which has led to the problem of information overload. This has made automatic summarization an increasingly popular and useful tool. Manually summarizing long documents can be a daunting and time-consuming task, and automatic summarization tools have been developed to make the process easier and more efficient.
 
-Text summarization can be achieved through two different methods: extractive and abstractive summarization. In extractive summarization, the system selects important sentences or paragraphs from the original document and combines them to create a shorter summary. The sentences that are considered important are typically determined by statistical and linguistic analysis of the original text. Extractive methods work by selecting a subset of words, phrases, or sentences in the original text and then merging them to create a summary. The goal of extractive summarization is to cover the most important sentences that are necessary for the overall understanding of the document.
+# Prerequisite
+1. `Anaconda` or `Jupyter Notebook` or `Google Colaboratory` <br><br>
+Note: `Python` should be installed on your machine if you are using `Jupyter Notebook` and you may need to manually install some of the packages needed using `pip` command.
 
-Extractive summarization systems have been developed using different techniques for sentence extraction, including keyword extraction, sentence clustering, and sentence ranking. Keyword extraction involves selecting the most important words or phrases in the text and then identifying the sentences that contain those keywords. In sentence clustering, the sentences in the text are clustered into different groups based on their similarity, and then the most important sentence from each cluster is selected for the summary. In sentence ranking, the sentences in the text are ranked based on their importance, and then the most important sentences are selected for the summary.
-
-In summary, text summarization is a useful tool for managing the overwhelming amount of information that is available today. Automatic summarization tools can make it easier to extract the most important information from long documents, and extractive summarization is a popular method for achieving this. Extractive summarization methods rely on statistical and linguistic analysis of the text, and the most important sentences are selected to create a summary that provides the reader with an understanding of the main ideas in the document.
 
 # Explanation 
 Text summarization is the process of creating a short, coherent, and fluent summary of a longer text document. The critical tasks in extraction-based summarization are identifying key phrases in the document and using them to discover relevant information.
@@ -57,4 +56,17 @@ After the completion of summarization again the text in English will be converte
 <br><br>
 This helps in extending the existing models which does the summarization only in English to summarizing the text of any language.
 <br>
+
+# Screenshots
+Input
+<p align="center">
+<img width="1115" alt="Screenshot 2023-02-16 at 11 30 09 PM" src="https://user-images.githubusercontent.com/56265949/219449466-b7a08853-de32-4dea-a653-980333cc3033.png">
+</p>
+Output
+<p align="center">
+<img width="1114" alt="Screenshot 2023-02-16 at 11 30 24 PM" src="https://user-images.githubusercontent.com/56265949/219449472-8b31d0fd-1b8e-4765-98a3-66a5d4876d46.png">
+</p>
+
+
+
 
